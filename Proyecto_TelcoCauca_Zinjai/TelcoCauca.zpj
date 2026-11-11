@@ -1,0 +1,46 @@
+<project name="TelcoCauca" version="2.0">
+	<compiler_options value="-std=c++11 -pthread"/>
+	<linker_options value="-pthread -lws2_32"/>
+	<files>
+		<file name="Tecnico.h"/>
+		<file name="Tecnico.cpp"/>
+		<file name="Antena.h"/>
+		<file name="Antena.cpp"/>
+		<file name="Torre.h"/>
+		<file name="Torre.cpp"/>
+		<file name="ExcepcionNodoRed.h"/>
+		<file name="ExcepcionNodoRed.cpp"/>
+		<file name="DispositivoRed.h"/>
+		<file name="DispositivoRed.cpp"/>
+		<file name="SensorIoT.h"/>
+		<file name="SensorIoT.cpp"/>
+		<file name="NodoRedInteligente.h"/>
+		<file name="NodoRedInteligente.cpp"/>
+		<file name="ITransmisible.h"/>
+		<file name="DispositivoComunicacion.h"/>
+		<file name="DispositivoComunicacion.cpp"/>
+		<file name="RouterWiFi.h"/>
+		<file name="RouterWiFi.cpp"/>
+		<file name="GatewayLoRa.h"/>
+		<file name="GatewayLoRa.cpp"/>
+		<file name="SwitchFibra.h"/>
+		<file name="SwitchFibra.cpp"/>
+		<file name="Registro.h"/>
+		<file name="Registro.cpp"/>
+		<file name="TareaTransmision.h"/>
+		<file name="TareaTransmision.cpp"/>
+		<file name="SupervisorRed.h"/>
+		<file name="SupervisorRed.cpp"/>
+		<file name="EventoIngenieria2027.h"/>
+		<file name="EventoIngenieria2027.cpp"/>
+		<file name="SocketCompat.h"/>
+		<file name="SocketCompat.cpp"/>
+		<file name="Trama.h"/>
+		<file name="Trama.cpp"/>
+		<file name="ServidorCentral.h"/>
+		<file name="ServidorCentral.cpp"/>
+		<file name="ClienteNodo.h"/>
+		<file name="ClienteNodo.cpp"/>
+		<file name="main.cpp"/>
+	</files>
+</project>

@@ -1,0 +1,9 @@
+# Ignorar binarios y objetos compilados
+*.o
+*.exe
+*.out
+
+# Ignorar archivos temporales de Zinjai
+*.zpr.bak
+*.zpr.layout
+.zinjai/
